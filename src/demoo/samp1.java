@@ -1,8 +1,12 @@
 package demoo;
 
+import org.testng.annotations.Test;
+
 public class samp1 
 {
-	public static void main(String[] args) {
+	@Test
+	public void abb()
+	{
 		System.out.println("Hello Java");
 	}
 
